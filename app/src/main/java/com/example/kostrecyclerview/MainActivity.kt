@@ -27,5 +27,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(moveIntent)
         }
 
+        rvButton.setOnClickListener {
+            val moveIntent = Intent(this@MainActivity, KostRecycler::class.java)
+            startActivity(moveIntent)
+        }
+
     }
 }

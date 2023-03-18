@@ -4,4 +4,75 @@
     <string name="rv">Kost List</string>
     <string name="full_name">Dikki Agung Prasetyo</string>
     <string name="email">dikki.1710@gmail.com</string>
+
+    <!--  Recycler View  -->
+    <string name="kost_name">Kost Name</string>
+    <string name="description">Description</string>
+    <string name="place">Place</string>
+    <string name="price">Price</string>
+
+    <string-array name="data_name">
+        <item>Sakinah Kost</item>
+        <item>Cosmo Elite Kost</item>
+        <item>Kost Pamoyanan XV</item>
+        <item>Kost Harian Surabaya</item>
+        <item>Executive Residence</item>
+        <item>OYO Papikoel</item>
+        <item>Dieng Inn</item>
+        <item>Malioboro Guest House</item>
+        <item>Bali Kost Utama</item>
+        <item>Kualanamu Hotel</item>
+    </string-array>
+
+    <string-array name="data_place">
+        <item>Kuningan, Jakarta Selatan</item>
+        <item>Petisah, Medan</item>
+        <item>Cicendo, Bandung</item>
+        <item>Sawahan, Surabaya</item>
+        <item>Sleman, Yogyakarta</item>
+        <item>Medan Selayang, Medan</item>
+        <item>Wonosobo, Jawa Tengah</item>
+        <item>Sleman, Yogyakarta</item>
+        <item>Denpasar, Bali</item>
+        <item>Batang Kuis, Medan</item>
+    </string-array>
+
+    <string-array name="data_price">
+        <item>Rp. 2500K / month</item>
+        <item>Rp. 900K / month</item>
+        <item>Rp. 1200K / month</item>
+        <item>Rp. 850K / month</item>
+        <item>Rp. 1350K / month</item>
+        <item>Rp. 1600K / month</item>
+        <item>Rp. 600K / month</item>
+        <item>Rp. 2700K / month</item>
+        <item>Rp. 2700K / month</item>
+        <item>Rp. 950K / month</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Fasilitas sangat lengkap, tersedia AC, lemari, meja, hingga dapur mini. Tersedia Water Heater agar dapat menggunakan air hangat hingga panas. Lokasi sangat strategis dekat dengan fasilitas publik.</item>
+        <item>Tersedia AC, dan lemari. Tidak tersedia Water Heater. Lokasi sangat strategis tepat di pusat kota, dekat dengan semua fasilitas publik.</item>
+        <item>Menyediakan AC, lemari, dan Water Heater. Lokasi sedikit jauh dari pusat kota, tetapi dekat dengan fasilitas publik. Tersedia dapur umum bagi yang membutuhkan.</item>
+        <item>Tidak tersedia AC, hanya tersedia lemari dan meja kecil. Lokasi berada di pusat kota, dekat dengan semua fasilitas publik. Jarak tempuh ke bandara hanya 15 menit saja.</item>
+        <item>Fasilitas sangat lengkap, tersedia AC, lemari, meja, hingga Water Heater. Tersedia juga dapur umum bagi yang membutuhkan, lokasi sangat strategis di pusat kota dan dekat dengan fasilitas publik.</item>
+        <item>Fasilitas sangat lengkap, tersedia AC, lemari, meja, hingga dapur mini. Tersedia Water Heater agar dapat menggunakan air hangat hingga panas. Lokasi sangat strategis dekat dengan fasilitas publik.</item>
+        <item>Tersedia AC, dan lemari. Tidak tersedia Water Heater. Lokasi sangat strategis tepat di pusat kota, dekat dengan semua fasilitas publik.</item>
+        <item>Menyediakan AC, lemari, dan Water Heater. Lokasi sedikit jauh dari pusat kota, tetapi dekat dengan fasilitas publik. Tersedia dapur umum bagi yang membutuhkan.</item>
+        <item>Tidak tersedia AC, hanya tersedia lemari dan meja kecil. Lokasi berada di pusat kota, dekat dengan semua fasilitas publik. Jarak tempuh ke bandara hanya 15 menit saja.</item>
+        <item>Fasilitas sangat lengkap, tersedia AC, lemari, meja, hingga Water Heater. Tersedia juga dapur umum bagi yang membutuhkan, lokasi sangat strategis di pusat kota dan dekat dengan fasilitas publik.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/kost_1</item>
+        <item>@drawable/kost_2</item>
+        <item>@drawable/kost_3</item>
+        <item>@drawable/kost_4</item>
+        <item>@drawable/kost_5</item>
+        <item>@drawable/kost_6</item>
+        <item>@drawable/kost_7</item>
+        <item>@drawable/kost_8</item>
+        <item>@drawable/kost_9</item>
+        <item>@drawable/kost_10</item>
+    </integer-array>
 </resources>
