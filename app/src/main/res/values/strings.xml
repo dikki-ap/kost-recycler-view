@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Kost RecyclerView</string>
+    <string name="about">About Page</string>
+    <string name="rv">Kost List</string>
+    <string name="full_name">Dikki Agung Prasetyo</string>
+    <string name="email">dikki.1710@gmail.com</string>
 </resources>
