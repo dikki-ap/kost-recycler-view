@@ -10,5 +10,5 @@
     <string name="description">Description</string>
     <string name="place">Place</string>
     <string name="price">Price</string>
-    <string name="share">Share</string>
+    <string name="share">Share This Place</string>
 </resources>
