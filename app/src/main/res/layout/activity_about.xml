@@ -4,32 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
     android:layout_gravity="center_vertical"
-    android:padding="16dp"
+    android:orientation="vertical"
     tools:context=".About">
 
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/photo_2"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/photo_2" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="24dp"
+        android:gravity="center"
         android:textSize="24dp"
         android:textStyle="bold"
-        android:text="@string/full_name"/>
+        android:layout_marginTop="20dp"
+        android:text="@string/full_name" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="12dp"
-        android:textSize="18dp"
-        android:text="@string/email"/>
+        android:gravity="center"
+        android:textSize="16dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/email" />
 
 </LinearLayout>
