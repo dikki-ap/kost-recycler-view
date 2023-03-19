@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import org.w3c.dom.Text
 
 class ListKostAdapter(private val listKost: ArrayList<Kost>) : RecyclerView.Adapter<ListKostAdapter.ListViewHolder>() {
 
@@ -20,6 +21,7 @@ class ListKostAdapter(private val listKost: ArrayList<Kost>) : RecyclerView.Adap
         holder.tvName.text = name
         holder.tvPlace.text = place
         holder.tvPrice.text = price
+        holder.tvDescription.text = description
     }
 
     override fun getItemCount(): Int = listKost.size
@@ -29,6 +31,6 @@ class ListKostAdapter(private val listKost: ArrayList<Kost>) : RecyclerView.Adap
         val tvName: TextView = itemView.findViewById(R.id.tv_kost_name)
         val tvPlace: TextView = itemView.findViewById(R.id.tv_kost_place)
         val tvPrice: TextView = itemView.findViewById(R.id.tv_kost_price)
-
+        val tvDescription: TextView = itemView.findViewById(R.id.tv_kost_description)
     }
 }

@@ -60,6 +60,14 @@
                 android:textSize="14dp"
                 android:text="@string/place"/>
 
+            <TextView
+                android:id="@+id/tv_kost_description"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:textSize="14dp"/>
+
         </LinearLayout>
 
     </LinearLayout>
